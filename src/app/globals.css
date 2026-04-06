@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #0a0a0f;
+  --color-surface: #12121a;
+  --color-neon-green: #00ff88;
+  --color-neon-cyan: #00d4ff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(circle at 20% 10%, rgb(0 212 255 / 10%), transparent 40%),
+    radial-gradient(circle at 80% 40%, rgb(0 255 136 / 8%), transparent 50%),
+    var(--color-bg);
+  color: #e5e7eb;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, sans-serif;
+}
+
+* {
+  border-color: #27272a;
+}

@@ -2,12 +2,22 @@ import type { Project } from "@/types";
 
 export const projects: Project[] = [
   {
-    title: "Twitter Clone",
+    title: "Zen Data",
     description:
-      "Twitter Clone is a web application that allows users to create, read, update and delete tweets.",
-    tech: ["Next.js", "TypeScript", "WebSocket", "PostgreSQL"],
-    githubUrl: "https://github.com/ebubekirylmaz/twitterclone",
-    liveUrl: "https://firebasetwitterclone.netlify.app",
+      "A fully browser-based data wrangling tool built with React, TypeScript, and MUI. Upload a CSV or JSON file, clean and transform its contents, explore it through an interactive data grid, and visualise key statistics — all without a backend, a server, or any data ever leaving your machine.",
+    tech: [
+      "React",
+      "Vite",
+      "TypeScript",
+      "MUI",
+      "React-Data-Grid",
+      "PapaParse",
+      "Zustand",
+      "TanStack Table",
+      "Recharts",
+    ],
+    githubUrl: "https://github.com/ebubekirylmaz/zen-data",
+    liveUrl: "https://zendata.netlify.app",
     featured: true,
   },
   {

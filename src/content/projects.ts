@@ -16,7 +16,7 @@ export const projects: Project[] = [
       "Claude API",
     ],
     githubUrl: "https://github.com/ebubekirylmaz/pulseflow",
-    liveUrl: "https://pulseflowexample.netlify.app",
+    liveUrl: "https://pulseflowexample.vercel.app/",
     featured: true,
   },
 
@@ -36,7 +36,7 @@ export const projects: Project[] = [
       "Recharts",
     ],
     githubUrl: "https://github.com/ebubekirylmaz/zen-data",
-    liveUrl: "https://zendata.netlify.app",
+    liveUrl: "https://zen-data.vercel.app/",
     featured: true,
   },
   {

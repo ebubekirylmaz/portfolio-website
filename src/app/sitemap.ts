@@ -1,9 +1,11 @@
 import type { MetadataRoute } from "next";
 
+const siteUrl = "https://ebubekiryilmaz.vercel.app";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://your-portfolio-url.com",
+      url: siteUrl,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,

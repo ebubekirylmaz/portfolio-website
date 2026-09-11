@@ -14,7 +14,7 @@ export const experience: ExperienceItem[] = [
   {
     company: "Nucleoid",
     role: "Software Developer",
-    period: "2024 - Present",
+    period: "2024 - 2025",
     highlights: [
       "Build reusable UI components and design patterns to ensure consistency across the platform",
     ],

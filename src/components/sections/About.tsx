@@ -17,7 +17,7 @@ export function About() {
           <SectionHeading
             eyebrow="About"
             title="Engineering focused on clarity, scale, and speed."
-            subtitle="I enjoy building robust products, refining developer experience, and turning complex requirements into elegant interfaces."
+            subtitle="I enjoy designing systems, not just assembling them from existing pieces from custom rendering engines to full products. I care about clean, maintainable code and turning complex problems into simple, reliable interfaces."
           />
           <div className="grid grid-cols-3 gap-4 rounded-xl border border-zinc-800 bg-zinc-900/50 p-4">
             <div>
@@ -44,7 +44,7 @@ export function About() {
               {`{
   "name": "Ebubekir Yilmaz",
   "location": "Remote / Türkiye",
-  "focus": ["Frontend Architecture", "Performance", "DX"],
+  "focus": ["Frontend Architecture", "Performance", "DX", "System Architecture"],
   "currentlyLearning": "System Design for Web Scale"
 }`}
             </pre>

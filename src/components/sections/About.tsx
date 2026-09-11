@@ -13,6 +13,7 @@ export function About() {
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
+          className="min-w-0"
         >
           <SectionHeading
             eyebrow="About"
@@ -38,13 +39,19 @@ export function About() {
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
+          className="min-w-0"
         >
           <TerminalCard title="about.json">
             <pre className="overflow-x-auto text-xs leading-6 text-zinc-300">
               {`{
   "name": "Ebubekir Yilmaz",
   "location": "Remote / Türkiye",
-  "focus": ["Frontend Architecture", "Performance", "DX", "System Architecture"],
+  "focus": [
+    "Frontend Architecture",
+    "Performance",
+    "DX",
+    "System Architecture"
+  ],
   "currentlyLearning": "System Design for Web Scale"
 }`}
             </pre>

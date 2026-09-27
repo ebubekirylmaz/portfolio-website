@@ -40,11 +40,21 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    title: "Chat App",
+    title: "Book Appointment",
     description:
-      "Case-study project focused on Core Web Vitals improvements and conversion lift.",
-    tech: ["Next.js", "Lighthouse", "Edge Caching", "A/B Testing"],
-    githubUrl: "https://github.com/ebubekirylmaz/chatApp",
-    liveUrl: "https://vitechatapp.netlify.app",
+      "A full-stack appointment booking platform for small service businesses (salons, spas, tutors) — a self-serve alternative to managing bookings over WhatsApp or phone calls. Customers book through a mobile-first, four-step wizard with real-time availability computed from the business's working hours and existing bookings, so double-booking is impossible. The business owner runs everything from a protected admin dashboard: a weekly calendar, services CRUD, manual bookings, and per-day working hours, all backed by a real Postgres database.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Prisma",
+      "PostgreSQL",
+      "NextAuth",
+      "FullCalendar",
+    ],
+    githubUrl: "https://github.com/ebubekirylmaz/rendezvous-app",
+    liveUrl: "https://rendezvous-app-seven.vercel.app",
+    featured: true,
   },
 ];

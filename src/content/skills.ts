@@ -12,6 +12,7 @@ export const skills: SkillCategory[] = [
       "Next.js",
       "Node.js",
       "Express",
+      "FastAPI",
       "Tailwind CSS",
       "Bootstrap",
       "Material UI",

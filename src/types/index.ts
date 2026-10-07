@@ -11,12 +11,22 @@ export interface SkillCategory {
   items: string[];
 }
 
+export interface ProjectImage {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+}
+
 export interface Project {
   title: string;
   description: string;
   tech: string[];
   githubUrl: string;
-  liveUrl: string;
+  /** Leave out when the project has no hosted demo: the card then shows no "Live Demo" link. */
+  liveUrl?: string;
+  /** A screenshot shown next to the text of a featured card. */
+  image?: ProjectImage;
   featured?: boolean;
 }
 

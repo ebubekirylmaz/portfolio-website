@@ -25,6 +25,8 @@ export interface Project {
   githubUrl: string;
   /** Leave out when the project has no hosted demo: the card then shows no "Live Demo" link. */
   liveUrl?: string;
+  npmUrl?: string;
+  summary?: string;
   /** A screenshot shown next to the text of a featured card. */
   image?: ProjectImage;
   featured?: boolean;

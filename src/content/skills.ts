@@ -13,6 +13,8 @@ export const skills: SkillCategory[] = [
       "Node.js",
       "Express",
       "FastAPI",
+      "Fastify",
+      "Socket.IO",
       "Tailwind CSS",
       "Bootstrap",
       "Material UI",
@@ -25,6 +27,9 @@ export const skills: SkillCategory[] = [
     items: [
       "Git",
       "Docker",
+      "PostgreSQL",
+      "Redis",
+      "Playwright",
       "Postman",
       "Figma",
       "Vercel",
